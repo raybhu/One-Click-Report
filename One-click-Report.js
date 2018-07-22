@@ -6,8 +6,10 @@
 // @author       Raizo_cn
 // @grant        none
 
-// @include        tieba.baidu.com/*
-// @match          tieba.baidu.com/*
+// @include        http://tieba.baidu.com/*
+// @include        https://tieba.baidu.com/*
+// @match          http://tieba.baidu.com/*
+// @match          https://tieba.baidu.com/*
 // @run-at              context-menu
 // ==/UserScript==
 
