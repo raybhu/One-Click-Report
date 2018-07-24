@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         一键举报 for 百度贴吧
 // @namespace    https://github.com/raizocn/One-Click-Report
-// @version      0.1
-// @description  在浏览百度贴吧时，在每一个帖子左上角显示的回复数位置加入一个"举报"按键
+// @version      0.11
+// @description  在浏览百度贴吧时，在每一个帖子左上角显示的回复数位置加入一个"举报"按键。(打开一个贴吧，右键点击插件栏Tampermonkey图标，如图点击选项启动脚本)
 // @author       Raizo_cn
 // @supportURL   https://github.com/raizocn/One-Click-Report
 // @grant        none
