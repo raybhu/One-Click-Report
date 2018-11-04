@@ -14,7 +14,7 @@
 // @run-at              context-menu
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
 
     // Your code here...
@@ -23,7 +23,7 @@
 
     var x, i;
 
-    for (i=0; i<append_location.length; i++) {
+    for (i = 0; i < append_location.length; i++) {
 
 
         x = append_location[i];
@@ -34,7 +34,7 @@
         var first_post_id = JSON.parse(append_div[i].getAttribute('data-field')).first_post_id;
         var oneclickContent = "window.open('http://tieba.baidu.com/complaint/info?type=2&cid=0&tid=" + id + "&pid=" + first_post_id + "','newwindow', 'height=900, width=800, toolbar =no, menubar=no, scrollbars=yes, resizable=yes, location=no, status=no');return false;"
         console.log(oneclickContent)
-        btn.setAttribute('onclick',oneclickContent)
+        btn.setAttribute('onclick', oneclickContent)
         x.appendChild(btn)
     }
 
